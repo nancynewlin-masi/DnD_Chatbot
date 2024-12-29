@@ -19,7 +19,7 @@ def index():
 def chat():
     try:
         user_message = request.json['message']
-        df = pd.read_csv('SpellsTable.csv')
+        df = pd.read_csv('../DATA/SpellsTable.csv')
         #print(df.head())
         df = df[df['Name'].notna()] # remove any NaN values as it blows up serialization
         data = df.to_dict('records')
