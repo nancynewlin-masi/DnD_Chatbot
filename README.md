@@ -1,7 +1,7 @@
 # DnD_Chatbot
 A simple chatbot that uses retrieval augmented generation to give me personalized spellcasting advice for my Dungeons and Dragons character. 
 
-[DND](banner.jpeg.jpg)
+![DND](banner.png)
 ## Step 1: Set up environment
 Create a conda enviroment from the requirements.txt file with the following command:
 ```
